@@ -1,0 +1,15 @@
+{
+  "name": "my-idx-env",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postStartCommand": "bash .devcontainer/init.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
+
