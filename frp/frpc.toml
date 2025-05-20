@@ -1,0 +1,9 @@
+serverAddr = "49.87.153.138"
+serverPort = 7000
+
+[[proxies]]
+name = "v-tcp"
+type = "xtcp"
+secretKey = "abcdefghz"
+localIP = "127.0.0.1"
+localPort = 59004
